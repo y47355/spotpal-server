@@ -96,7 +96,16 @@ curl -X POST "http://localhost:8080/v1/squad/sq_demo_1/confirm?uid=u_demo_ye"
 | 2 | 召回延迟超标 / 缓存命中率降 | 上 ES/Milvus/Redis（查询接口不变） |
 | 3 | DAU >5w / 多城 | 模块化单体 → 微服务（模块边界已按拆分预设） |
 
-设计文档见 [spotpal-docs](https://github.com/spotpal/spotpal-docs)。
+## 相关仓库
+
+| 仓库 | 说明 |
+|---|---|
+| [spotpal-android](https://github.com/y47355/spotpal-android) | Android 客户端（Kotlin + Compose + MVI，上推托付手势） |
+| [spotpal-docs](https://github.com/y47355/spotpal-docs) | 技术架构 + 客户端/服务端详细设计 + 高保真原型 |
+
+## License
+
+MIT
 
 ## License
 
