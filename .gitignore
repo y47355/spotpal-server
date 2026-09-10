@@ -1,0 +1,16 @@
+# 二进制与数据
+spotpal-server
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Go
+*.test
+*.out
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
